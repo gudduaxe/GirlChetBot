@@ -15,7 +15,7 @@ from telegram.ext import (
 from telegram.request import HTTPXRequest
 
 TOKEN = os.getenv("BOT_TOKEN")
-
+print("BOT TOKEN FOUND:", bool(TOKEN))
 GROUP_LINK = "https://t.me/+wWnq9mAxw0o4MGQ1"
 CHANNEL_LINK = "https://t.me/storiesoffus"
 BOT_GROUP_LINK = "https://t.me/GirlChetBot?startgroup=true"
